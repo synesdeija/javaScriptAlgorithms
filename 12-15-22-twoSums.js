@@ -20,9 +20,9 @@ function twoSum(arr, sum){
     const pairs = []
     const nums = {}
 
-    for(const num1 of arr){
+    for(const num of arr){
         const num2 = sum - num1
-        if(nums[num2]){
+        if(num[num2]){
             pairs.push([num1, num2])
         }else{
             nums[num1] = 1
